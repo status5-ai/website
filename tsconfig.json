@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "target": "ESNext",
+        "declaration": true,
+        "esModuleInterop": true,
+        "jsx": "react-jsx",
+        "skipLibCheck": true
+    },
+}

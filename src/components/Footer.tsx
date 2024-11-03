@@ -16,10 +16,11 @@ export default function Footer() {
             </a>
           </div>
           <div className="text-right">
-            <div className="text-3xl mb-4">
+            <div className="text-3xl mb-2">
               <span className="font-extrabold text-[#c00000]">Status5</span>
               <span className="text-[#c00000]">.ai</span>
             </div>
+            <a href='/impressum.html' className="mb-2 block text-sm text-[#c00000]">Impressum</a>
             <p className="text-sm text-gray-600">© 2024</p>
           </div>
         </div>

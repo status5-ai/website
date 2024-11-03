@@ -1,10 +1,10 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 export default function Header() {
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -29,19 +29,19 @@ export default function Header() {
             </div>
             <div className="hidden md:flex space-x-8">
               <button
-                onClick={() => scrollToSection('problem')}
+                onClick={() => scrollToSection("problem")}
                 className="text-gray-600 hover:text-[#c00000] transition-colors"
               >
                 Problem
               </button>
               <button
-                onClick={() => scrollToSection('solutions')}
+                onClick={() => scrollToSection("solutions")}
                 className="text-gray-600 hover:text-[#c00000] transition-colors"
               >
                 Lösungen
               </button>
               <button
-                onClick={() => scrollToSection('contact')}
+                onClick={() => scrollToSection("contact")}
                 className="text-gray-600 hover:text-[#c00000] transition-colors"
               >
                 Kontakt
