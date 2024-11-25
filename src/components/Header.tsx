@@ -57,12 +57,12 @@ export default function Header() {
         </div>
       </nav>
 
-      <div className="relative container mx-auto px-6 h-screen flex items-center -translate-y-10">
+      <div className="relative container mx-auto px-6 h-screen flex items-start -translate-y-20 lg:translate-y-0">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="max-w-2xl text-white"
+          className="max-w-2xl text-white h-screen pt-[72px] justify-center flex flex-col"
         >
           <h1 className="text-6xl md:text-8xl font-extrabold mb-6">
             KI im Einsatz
@@ -71,6 +71,12 @@ export default function Header() {
             Wir unterstützen Einsatzkräfte durch KI-basierte Transkription,
             Analyse, und Darstellung von Einsatzinformationen aus Funksprüchen.
           </p>
+          <button
+            onClick={() => scrollToSection("contact")}
+            className="text-white self-start mt-8 lg:mt-32 text-lg px-5 py-3 rounded-lg hover:text-black hover:bg-white bg-[#c00000] transition-colors"
+          >
+            Für Newsletter anmelden
+          </button>
         </motion.div>
       </div>
     </header>
