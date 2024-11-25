@@ -50,7 +50,7 @@ export default function Header() {
                 onClick={() => scrollToSection("contact")}
                 className="text-white px-4 py-2 rounded hover:text-black hover:bg-white bg-[#c00000] transition-colors"
               >
-                Subscribe
+                Newsletter
               </button>
             </div>
           </div>

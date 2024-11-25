@@ -17,7 +17,7 @@ export default function Newsleter() {
             transition={{ duration: 0.6 }}
             className="text-3xl flex-grow basis-0 flex items-center justify-center"
           >
-            Sign up for Our Newsleter
+            Für unseren Newsletter anmelden
           </motion.div>
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
@@ -60,7 +60,7 @@ export default function Newsleter() {
                     type="submit"
                     className="shadow text-white px-4 py-2 rounded hover:text-black hover:bg-white bg-[#c00000] transition-colors"
                   >
-                    Subscribe
+                    Anmelden
                   </button>
                 </div>
               </div>
