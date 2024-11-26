@@ -17,7 +17,7 @@ export default function Header() {
 
       <img
         className="absolute lg:left-auto left-[50%] lg:transform-none -translate-x-[50%] lg:bottom-16 bottom-4 lg:right-16 md:w-[18rem] w-[16rem]"
-        src="/3d-vis.png"
+        src="/transkription.png"
       />
 
       <nav className="fixed top-0 w-full z-50 bg-white/95 shadow-lg">
@@ -57,15 +57,15 @@ export default function Header() {
         </div>
       </nav>
 
-      <div className="relative container mx-auto px-6 h-screen flex items-start -translate-y-20 lg:translate-y-0">
+      <div className="relative container mx-auto px-6 h-screen flex items-start -translate-y-[8rem] lg:translate-y-0">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           className="max-w-2xl text-white h-screen pt-[72px] justify-center flex flex-col"
         >
-          <h1 className="text-6xl md:text-8xl font-extrabold mb-6">
-            KI im Einsatz
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6">
+            Übersicht im Einsatz
           </h1>
           <p className="text-lg md:text-xl leading-relaxed">
             Wir unterstützen Einsatzkräfte durch KI-basierte Transkription,
